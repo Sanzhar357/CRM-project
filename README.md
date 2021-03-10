@@ -5,23 +5,23 @@ Description of classes:
 
 Class Main 
 
-Class MyApplication 
+Class MyApplication: 
 Store different objects and refer to other classes. 
 Methods: start();
 
-Class Customer
+Class Customer:
 Store customer related fields (name, gender, etc.) includes several methods.
 Methods: Customer_loop(),  showAllDataCustomer(), selectTopAgeGroup(), Geolocation(), determineOccupancy();
 
-CustomerInput
+CustomerInput:
 Extends the Customer class, provides data entry, consists of one method InputData().
 
-Class Product
+Class Product:
 Includes fields related to products (category, number of photos, weight), there are methods ItemLoop(), letterOfNameDescrip(),massOfProduct();
 
-Class Orders
+Class Orders:
 Stores order information, includes methods: OrderLoop(), findActiveCustomers(), showOrderStatus();
 
-Class Order_items
+Class Order_items:
 Storing more detailed order information consists of two methods.
 Methods: OrderItemLoop(), Top5ExpensiveProducts(), Top5CheapestProducts(), Top3ExpensiveProductsDate(), Top3CheapestProductsDate(), calculateFundOfCompany();
