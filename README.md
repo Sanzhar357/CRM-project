@@ -26,4 +26,4 @@ Class Order_items:
 Storing more detailed order information consists of two methods.
 Methods: OrderItemLoop(), Top5ExpensiveProducts(), Top5CheapestProducts(), Top3ExpensiveProductsDate(), Top3CheapestProductsDate(), calculateFundOfCompany();
 
-Gihub commits history - https://github.com/Sanzhar357/CRM-project/commits/main?after=3843ec4e285f69066fe07d4f3dbf7fdb8b6131d4+34&branch=main
+In total, we did additional analysis by creating a total of 14 different queries (methods).
